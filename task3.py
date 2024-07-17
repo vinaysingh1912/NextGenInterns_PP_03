@@ -72,7 +72,7 @@ class StudentManagementSystem:
                 student_id = input("Enter student ID: ")
                 self.display_student_info(student_id)
             elif choice == '4':
-                print("Exiting the system.")
+                print("Thank You for using the service.")
                 break
             else:
                 print("Invalid choice. Please enter a number between 1 and 4.")
