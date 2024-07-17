@@ -1,5 +1,5 @@
 class Student:
-    def _init_(self, student_id, name):
+    def __init__(self, student_id, name):
         self.student_id = student_id
         self.name = name
         self.grades = []
@@ -25,7 +25,7 @@ class Student:
         print(f"Average Grade: {average_grade:.2f}")
 
 class StudentManagementSystem:
-    def _init_(self):
+    def __init__(self):
         self.students = {}
 
     def add_student(self, student_id, name):
